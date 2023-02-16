@@ -1,0 +1,14 @@
+Algoritmo EdadMIninma
+	Definir Nombre Como Caracter
+	Definir edad Como Entero
+	Escribir 'Hola bienvenido a la discoteca'
+	Escribir "¿Cual es tu nombre?"
+	Leer Nombre
+	Escribir "¿Cual es tu edad?"
+	Leer edad
+	Si edad<18 Entonces
+		Escribir "lo sentimos no puedes pasar"
+	SiNo
+		Escribir "eres mayor de edad puedes pasar"
+	FinSi
+FinAlgoritmo
